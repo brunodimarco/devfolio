@@ -4,7 +4,7 @@ export const METADATA = {
   description:
     "Bruno Di Marco is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubhporwal24",
+  twitterHandle: "@hasdex",
   keywords: [
     "Bruno Di Marco",
     "Frontend Engineer",
