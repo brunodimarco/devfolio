@@ -1,12 +1,12 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Bruno Di Marco",
+  title: "Portfolio | Bruno Di Marco",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Bruno Di Marco is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
   twitterHandle: "@shubhporwal24",
   keywords: [
-    "Shubh Porwal",
+    "Bruno Di Marco",
     "Frontend Engineer",
     "React Native Developer",
     "Software Engineer",
@@ -26,49 +26,49 @@ export const MENULINKS = [
     ref: "home",
   },
   {
-    name: "Skills",
+    name: "Skill",
     ref: "skills",
   },
   {
-    name: "Projects",
+    name: "Progetti",
     ref: "projects",
   },
   {
-    name: "Work",
+    name: "Esperienze",
     ref: "work",
   },
   {
-    name: "Contact",
+    name: "Contatti",
     ref: "contact",
   },
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "Full stack developer",
+  "Creo cose per web e mobile",
+  "Focus su Medicina e AI",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: brunodm@live.it",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/bruno-di-marco-b1bb4a1a9/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/brunodimarco",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://www.instagram.com/brunodimarco/",
   },
   {
     name: "twitter",
-    url: "https://x.com/shubhporwal24",
+    url: "https://x.com/hasdex",
   },
 ];
 
@@ -76,27 +76,21 @@ export const SKILLS = {
   languagesAndTools: [
     "html",
     "css",
+    "php",
+    "java",
     "javascript",
-    "typescript",
-    "sass",
     "nodejs",
-    "webpack",
+    "supabase",
     "vite",
-    "firebase",
-    "figma",
-    "tanstack-query",
   ],
   librariesAndFrameworks: [
     "react",
     "redux",
     "nextjs",
     "tailwindcss",
-    "styledcomponents",
-    "antdesign",
-    "chakra-ui",
   ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  databases: ["mysql", "postgreSQL"],
+  other: ["git"],
 };
 
 export const PROJECTS = [
@@ -273,4 +267,4 @@ export const WORK_CONTENTS = {
   ],
 };
 
-export const GTAG = "G-5HCTL2TJ5W";
+//export const GTAG = "G-5HCTL2TJ5W";
