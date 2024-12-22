@@ -11,8 +11,8 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "Dukaan",
-        value: "dukaan",
+        title: "SISM",
+        value: "sism",
         content: (
           <StickyScroll
             isDesktop={isDesktop}

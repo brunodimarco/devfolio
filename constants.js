@@ -104,6 +104,15 @@ export const PROJECTS = [
     tech: ["wordpress", "javascript", "php"],
   },
   {
+    name: "Badaglialacqua Parrucchieri",
+    image: "/projects/parrucchieri.webp",
+    blurImage: "/projects/blur/parrucchieri-blur.webp",
+    description: "Sito web per hair stylist",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://badaglialacquaparrucchieri.it/",
+    tech: ["wordpress", "javascript", "php"],
+  },
+  {
     name: "Studio Oculistico Amodei",
     image: "/projects/studio.webp",
     blurImage: "/projects/blur/centro-blur.webp",
@@ -135,88 +144,44 @@ export const PROJECTS = [
 
 
 export const WORK_CONTENTS = {
-  DUKAAN: [
+  SISM: [
     {
-      title: "SISM",
+      title: "Leadership",
       description:
-        "SISM is a platform that enables businesses to launch their online stores at ease.",
+        "SISM is a non profit Lorem ipsum.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
+          Presidente
         </div>
       ),
     },
     {
-      title: "Transformation",
+      title: "Communication",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
-      content: (
+         "Lorem ipsum",
+         content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Local Officer on Research Exchange
         </div>
       ),
     },
     {
       title: "Evolution",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+        "Lorem ipsum",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
+          Local Officer on Information Technology
         </div>
       ),
     },
     {
-      title: "Optimization",
+      title: "Skill",
       description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+        "Lorem ipsum",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
-        </div>
-      ),
-    },
-  ],
-  AVIATE: [
-    {
-      title: "Aviate",
-      description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
-        </div>
-      ),
-    },
-    {
-      title: "Innovation",
-      description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
-        </div>
-      ),
-    },
-  ],
-  SPACENOS: [
-    {
-      title: "Spacenos",
-      description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
-        </div>
-      ),
-    },
-    {
-      title: "Trailblazing",
-      description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
+          Coordinator on Base Surgery Course
         </div>
       ),
     },
