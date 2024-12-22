@@ -2,21 +2,22 @@ export const METADATA = {
   author: "Bruno Di Marco",
   title: "Portfolio | Bruno Di Marco",
   description:
-    "Bruno Di Marco is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
+    "Sono un medico chirurgo e sviluppatore, specializzato nella progettazione di applicazioni moderne ed efficienti. Combino competenze mediche e tecnologiche per creare soluzioni funzionali e mirate alle esigenze degli utenti.",
+  siteUrl: "https://br1-tan.vercel.app/",
   twitterHandle: "@hasdex",
   keywords: [
     "Bruno Di Marco",
-    "Frontend Engineer",
-    "React Native Developer",
-    "Software Engineer",
+    "Medical Doctor",
+    "Full stack Engineer",
+    "Sviluppatore Java",
+    "Sviluppatore AI/ML",
     "Portfolio",
     "Devfolio",
     "Folio",
   ].join(", "),
   image:
     "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png",
-  language: "English",
+  language: "Italian",
   themeColor: "#000000",
 };
 
@@ -45,14 +46,14 @@ export const MENULINKS = [
 
 export const TYPED_STRINGS = [
   "Full stack developer",
-  "Creo cose per web e mobile",
-  "Focus su Medicina e AI",
+  "Creo app per web e mobile",
+  "Unisco Medicina, Programmazione e AI",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: brunodm@live.it",
+    url: "mailto:brunodm@live.it",
   },
   {
     name: "linkedin",
@@ -85,9 +86,8 @@ export const SKILLS = {
   ],
   librariesAndFrameworks: [
     "react",
-    "redux",
-    "nextjs",
     "tailwindcss",
+    "bootstrap",
   ],
   databases: ["mysql", "postgreSQL"],
   other: ["git"],
@@ -95,95 +95,51 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
+    name: "Centro Medico Amodei",
+    image: "/projects/centro.webp",
+    blurImage: "/projects/blur/centro-blur.webp",
+    description: "Sito web per centro medico poliambulatoriale",
     gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+    url: "https://centromedicoamodei.it/",
+    tech: ["wordpress", "javascript", "php"],
   },
   {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
+    name: "Studio Oculistico Amodei",
+    image: "/projects/studio.webp",
+    blurImage: "/projects/blur/centro-blur.webp",
+    description: "Sito web per studio oculistico",
     gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    url: "https://studiooculisticoamodei.it/",
+    tech: ["wordpress", "javascript", "php"],
   },
   {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    name: "Ithaka",
+    image: "/projects/ithaka.webp",
+    blurImage: "/projects/blur/ithaka-blur.webp",
     description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
+      "Ithaka: un viaggio nella letteratura",
     gradient: ["#000066", "#6699FF"],
     url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+    tech: ["java", "html", "php"],
   },
   {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
+    name: "Kairos",
+    image: "/projects/kairos.webp",
+    blurImage: "/projects/blur/ithaka-blur.webp",
+    description: "App smart home",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
+    tech: ["java"],
   },
 ];
 
-// export const WORK = [
-//   {
-//     id: 1,
-//     company: "Dukaan",
-//     title: "Frontend Developer",
-//     location: "Bangalore, Karnataka",
-//     range: "December - Current",
-//     responsibilities: [
-//       "Led creation of a captivating cross-platform e-commerce solution.",
-//       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
-//       "The app boasts a DAU base of 32k and an extensive MAU count of 180k.",
-//     ],
-//     url: "https://mydukaan.io/",
-//     video: "/work/dukaan.mp4",
-//   },
-//   {
-//     id: 2,
-//     company: "Aviate",
-//     title: "Frontend Developer Intern",
-//     location: "Goa",
-//     range: "May - October 2022",
-//     responsibilities: [
-//       "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
-//       "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
-//       "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
-//     ],
-//     url: "https://www.aviate.jobs/",
-//     video: "/work/aviate.mp4",
-//   },
-//   {
-//     id: 3,
-//     company: "Spacenos",
-//     title: "Web Developer Intern",
-//     location: "Bangalore, Karnataka",
-//     range: "September - December 2021",
-//     responsibilities: [
-//       "Led the Full Stack revamp on the Admin Portal.",
-//       "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-//       "Implemented CRUD features for all the services and providers.",
-//     ],
-//     url: "https://spacenos.com/",
-//     video: "/work/spacenos.mp4",
-//   },
-// ];
 
 export const WORK_CONTENTS = {
   DUKAAN: [
     {
-      title: "Dukaan",
+      title: "SISM",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "SISM is a platform that enables businesses to launch their online stores at ease.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Revolutionizing commerce, one click at a time
